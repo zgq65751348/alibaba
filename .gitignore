@@ -20,6 +20,10 @@ build/
 
 # Compiled class files
 *.class
+*.bat
+*.cmd
+*.classpath
+*.project
  
 # Log Files
 logs/
