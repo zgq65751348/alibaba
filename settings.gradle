@@ -1,0 +1,6 @@
+rootProject.name = 'alibaba'
+include 'github-gateway'
+include 'github-oauth2'
+include 'github-https'
+include 'github-cache'
+

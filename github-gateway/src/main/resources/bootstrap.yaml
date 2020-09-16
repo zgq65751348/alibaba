@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: spring-gateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        group: spring-cloud
+        file-extension: yaml
+        server-addr: 127.0.0.1
+        encode: UTF-8
+      discovery:
+        server-addr: 127.0.0.1
+
+
+
